@@ -28,7 +28,8 @@
     <br/>
     <script>
         window.alert("This page leads to the conversion of Euros!")
-        document.write("<h1>100 Philippine Pesos is equivalent to 1.64 Euros</h1>")
+        document.write("<h1>100 Philippine Pesos is equivalent to <span id='euros'></span> Euros</h1>")
+        document.getElementById('euros').textContent=(100*0.0165).toFixed(2)
     </script>
     <img src="https://media1.tenor.com/m/szsavbSXfowAAAAC/piero47-money.gif">
     <br/>
