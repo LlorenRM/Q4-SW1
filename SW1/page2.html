@@ -28,7 +28,8 @@
     <br/>
     <script>
         window.alert("This page leads to the conversion of Dollars!")
-        document.write("<h1>100 Philippine Pesos is equivalent to 6.12 US Dollars</h1>")
+        document.write("<h1>100 Philippine Pesos is equivalent to <span id='us-dollars'></span> US Dollars</h1>")
+        document.getElementById('us-dollars').textContent=(100*0.0177)
     </script>
     <img src="https://media1.tenor.com/m/nSAZJPpakoAAAAAC/p-diddy-money.gif">
     <br/>
